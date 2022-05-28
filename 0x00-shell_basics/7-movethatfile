@@ -1,2 +1,46 @@
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# cat >  7-movethatfile
 #!/bin/bash
 mv /tmp/betty /tmp/my_first_directory
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# cat > 8-firstdelete
+#!/bin/bash
+rm /tmp/my_first_directory
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# chmod u+x  8-firstdelete
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 7-movethatfile
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 6-firstdirectory
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# git commit -m 'another commit'
+[master 3ac79de] another commit
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# git push
+Username for 'https://github.com': meronaberham36@gmail.com
+Password for 'https://meronaberham36@gmail.com@github.com':
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 565 bytes | 565.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/MeronAberham/alx-system_engineering-devops.git
+   59a9bbc..3ac79de  master -> master
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# cat > 8-firstdelete
+#!/bin/bash
+rm /tmp/my_first_directory
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 8-firstdelete
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# git commit -m 'another commit'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# git push
+Username for 'https://github.com': meronaberham36@gmail.com
+Password for 'https://meronaberham36@gmail.com@github.com':
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/MeronAberham/alx-system_engineering-devops.git/'
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# git push
+Username for 'https://github.com': meronaberham36@gmail.com
+Password for 'https://meronaberham36@gmail.com@github.com':
+Everything up-to-date
+root@90e10076fd11:/alx-system_engineering-devops/0x00-shell_basics# cat >
